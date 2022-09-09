@@ -18,5 +18,10 @@ public class TextLabelBehaviour : MonoBehaviour
     {
         label.text = dataObj.value.ToString();
     }
+
+  public void DeathLabel()
+    {
+      label.text = "You Lose";
+    }
   
 }
